@@ -75,21 +75,15 @@
     width: 100%;
     position: relative;
     margin-top: 2rem;
-
-    &::after {
-        content: attr(data-value);
-        position: absolute;
-        top: -4rem;
-        right: 0;
-        font-size: 16px;
-        color: #fff;
-    }
 }
 
-.form-label {
+.form-label__text {
     font-size: 1.8rem;
     line-height: 1.2;
     color: $text-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-range {

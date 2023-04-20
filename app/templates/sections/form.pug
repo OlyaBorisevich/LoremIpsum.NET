@@ -42,8 +42,10 @@ section.section.section-form
                     .form-default__row
                         .form-default__item.cell-8.cell-md-12
                             .form-default__block
-                                label(for="range").form-label Sed ut perspiciatis, unde omnis iste natus
-                                input(type="range" id="range" name="range" min="0" max="100" data-value="").form-range.js_range
+                                label(for="range").form-label__text
+                                    span Sed ut perspiciatis, unde omnis iste natus
+                                    span.range-value 0%
+                                input(type="range" id="range" name="range" min="0" max="100").form-range.js_range
                         .form-default__item.cell-4.cell-md-12
                             button(type="button").btn.btn-secondary.md
                                 svg.icon.icon-file
